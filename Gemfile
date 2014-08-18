@@ -18,3 +18,8 @@ gem 'jbuilder', '1.0.2'
 group :doc do
   gem 'sdoc', '0.3.20', require: false
 end
+
+group :development, :test do
+  gem 'rspec-rails',      ">= 2.0.0.beta"
+  gem 'capybara'
+end

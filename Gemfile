@@ -23,7 +23,7 @@ end
 
 group :development, :test do
   gem 'rspec-rails',      ">= 2.0.0.beta"
-  gem 'capybara'
+  gem 'capybara', '2.2.0'
 end
 
 group :production do
